@@ -98,10 +98,12 @@
 
     <!-- Hero Section -->
     <main>
-      <section class="relative flex bg-deepBlue px-6 text-white">
-        <div class="flex flex-row w-10/12 justify-between items-center mx-auto">
+      <section class="relative flex bg-deepBlue text-white">
+        <div
+          class="flex flex-row w-10/12 max-w-[1080px] justify-between items-center mx-auto"
+        >
           <!-- Left Section -->
-          <div class="left_section flex flex-col gap-4">
+          <div class="left_section space-y-8">
             <h1 class="text-[40px] leading-[1.2] font-mullish font-bold">
               Power your finance, grow your business
             </h1>
@@ -110,11 +112,15 @@
               Accept payments from customers. Automate payouts to vendors &
               employees. Never run out of working capital.
             </p>
-            <a href=""><button>Sign up Now!</button></a>
+            <button
+              class="py-[14px] px-[18px] rounded-md font-bold font-mullish bg-lightBlue hover:bg-lightBlue500 transition-all duration-200"
+            >
+              Sign up Now!
+            </button>
           </div>
           <!-- Right Section -->
-          <div class="right_section">
-            <img src="./images/hero_img.jpg" alt="" />
+          <div>
+            <img class="right_section" src="./images/hero_img.jpg" alt="" />
           </div>
         </div>
 
